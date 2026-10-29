@@ -1,207 +1,101 @@
-# Awesome-Enterprise-Point-Of-Sale-POS
+# Awesome Enterprise Point Of Sale (POS)
 
-## Top Enterprise Point of Sale (POS) Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Enterprise-Point-Of-Sale-POS/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Point-Of-Sale-POS/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+> A curated list of leading Enterprise Point of Sale (POS) software, SaaS omnichannel commerce suites, self-hosted retail backends, and open-source POS engines.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Omnichannel Retail, High-Volume Store Operations & Self-Hosted POS Backends*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Point of Sale (POS)**. These tools enable large retailers and chains to run high-volume checkout, unify in-store and digital inventory, orchestrate omnichannel fulfillment, and manage complex pricing and promotions across hundreds of locations.
-
-
-
-**Examples** include Shopify POS Pro, Lightspeed Enterprise, Aptos Retail, Oracle Retail POS, Manhattan Associates POS, NCR Emerald, Diebold Nixdorf POS, Toshiba Global Commerce, GK Software, and Cegid Retail (the category leaders).
-
-
-
-**Open-source emphasis**: Enterprise POS is a domain where open-source tooling is **essentially non-existent for the full enterprise platform layer**. The commercial leaders—Aptos, Oracle Xstore, Manhattan Active POS, NCR Emerald—provide unified commerce suites with deep omnichannel orchestration, AI-driven personalization, and global compliance built over decades. Open-source projects that do exist are either **backend API references** (mini-pos-api demonstrates multi-tenant architecture with offline sync and immutable ledgers) , **ERP-integrated POS modules** (Odoo POS in Enterprise edition offers customer displays, IoT box, and real-time inventory that Community lacks) , or **general-purpose retail POS** (uniCenta, OSPOS, NexoPOS) that serve small-to-mid businesses but lack enterprise features like centralized fulfillment orchestration, RFID-driven inventory, or multi-country fiscal compliance . **No open-source project replicates the unified commerce depth of Aptos ONE or Manhattan Active POS**—enterprises seeking these capabilities must use commercial platforms or build custom systems atop open-source backends.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify POS Pro](https://www.shopify.com/pos)**  
-
-  Shopify's enterprise retail POS add-on ($89/month per location) with staff permissions, exchanges, local delivery, inventory receiving/transfers, and in-app analytics; integrates with Shopify's omnichannel ecosystem for unified commerce.
-
-
-
-- **[Lightspeed Enterprise](https://www.lightspeedhq.com/)**  
-
-  Cloud POS for serious retailers with inventory management, multi-location support, detailed reporting, and 250+ integrations; positioned for scaling retail chains.
-
-
-
-- **[Aptos Retail](https://www.aptos.com/)**  
-
-  **Aptos ONE** is a mobile-first modern POS platform with robust transaction design, real-time enterprise inventory access on any device, unified omnichannel fulfillment (endless aisle, ship-from-store, BOPIS), and store inventory management with corporate-initiated cycle counts . Implementation timelines as quick as 14 weeks; features released every 75 days. Designed to unify customer journeys across channels with a single transaction engine.
-
-
-
-- **[Oracle Retail POS (Xstore)](https://www.oracle.com/retail/)**  
-
-  Enterprise POS with comprehensive global navigation for associate, customer, inventory, reporting, and till management . Configurable menus and security by role, location, or register group; supports inventory adjustment, counts, replenishment, transfers, and extensive reporting (sales, inventory, associate productivity, till audits).
-
-
-
-- **[Manhattan Associates POS](https://www.manh.com/)**  
-
-  **Manhattan Active POS** is a cloud-native in-store sales and service solution merging clienteling, mobile checkout, and omnichannel fulfillment into a single app . Pacsun deployed across 300+ stores in 8 weeks, achieving 40% of online orders fulfilled via stores, 25% reduction in logistics expenses, and 50% faster resolution of unified orders during peak demand.
-
-
-
-- **[NCR Emerald](https://www.ncrvoyix.com/)**  
-
-  Enterprise POS with on-premise software tightly integrated with NCR Cloud for real-time promotions management, customer data, and enterprise-wide operational tools . Designed for high-volume retail; offline mode exists only for brief emergencies—prolonged disconnection from NCR Cloud would not deliver the promised functionality.
-
-
-
-- **[Diebold Nixdorf POS](https://www.dieboldnixdorf.com/)**  
-
-  **Vynamic** POS software portfolio for fuel/convenience (FCA), specialty/fashion (BFA), and grocery (GRA) verticals . Includes digital receipts, advanced analytics, self-service modules, and smart vision capabilities for fresh produce recognition and energy reduction.
-
-
-
-- **[Toshiba Global Commerce](https://www.toshiba.com/)**  
-
-  **TCx 820** all-in-one POS system available in multiple formats and screen sizes (10"–24", landscape/portrait) for all retail segments . Self-service solutions and flexible POS technologies designed for diverse retail environments.
-
-
-
-- **[GK Software](https://www.gk-software.com/)**  
-
-  **GK CLOUD4RETAIL** platform recognized as a top vendor in IHL Group's 2025 POS/mPOS Market Study . Features true hardware/OS independence, 400+ open APIs, unified business logic across POS/mPOS/self-checkout/self-scanning, production AI (price optimization, fraud prevention), and compliance in 69 countries with fiscal device integration, e-invoicing, and GDPR/CCPA compliance. Largest provider of new POS software deployments globally (July 2024–June 2025).
-
-
-
-- **[Cegid Retail](https://www.cegid.com/)**  
-
-  Recognized as a Leader in IDC MarketScape for Worldwide Mobile POS Software Platforms for Fashion Retail 2025 . Features fashion/luxury expertise, strong omnichannel (endless aisle, click-and-collect, ship-from-store, cross-channel returns), AI innovation (Cegid Pulse for GenAI conversations), and mobile-first flexibility across iOS, Android, and Windows with robust offline functionality.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Enterprise-Grade Backend References
-
-
-
-- **[mini-pos-api](https://gitea.com/mini-pos/mini-pos-api)**  
-
-  A **multi-tenant POS and inventory management SaaS backend** (Go/Gin/GORM/PostgreSQL) explicitly designed for enterprise retail . Features: **immutable double-entry inventory ledger** with pessimistic row-locking, offline-tolerant synchronization (batch operations, cursor-based pull sync, idempotent deduplication), two-tier field-level envelope encryption for sensitive data (tax IDs), RBAC with granular permissions, and comprehensive modules covering auth, tenant, branch, product, inventory, purchasing, POS registers/shifts, sales (split tender, voiding/restocking), returns, expenses, and immutable audit logs. **The most architecturally complete open-source enterprise POS backend reference**—but it is a backend API, not a full application; you must build the frontend and hardware integrations.
-
-
-
-### ERP-Integrated POS (Enterprise vs Community)
-
-
-
-- **[Odoo POS (Enterprise Edition)](https://www.odoo.com/)**  
-
-  Odoo's POS module is available in Community (free, open-source) and Enterprise (paid) editions. **Enterprise-only features** include customer display screens (via IoT Box), advanced POS interface customization, floor/table management for restaurants, bill splitting, payment terminal integration, loyalty programs, and real-time inventory tracking . Community edition provides basic sales, payment tracking, and inventory integration but lacks these enterprise capabilities. For organizations seeking ERP-integrated retail POS with accounting, inventory, and ecommerce in one system, Odoo Enterprise provides the closest open-core alternative to commercial suites.
-
-
-
-### General-Purpose Retail POS (Small-to-Mid Business)
-
-
-
-- **[uniCenta oPOS](https://github.com/unicenta/unicentaopos)**  
-
-  Multi-lingual touchscreen POS (open-source) supporting retail, restaurant, and store sales screens; connects to MySQL, HSQL, PostgreSQL, or Oracle; includes inventory management and 40+ reports . **Stable and long-standing** but designed for single or multi-terminal deployments, not enterprise-scale omnichannel orchestration.
-
-
-
-- **[Open Source Point of Sale (OSPOS)](https://github.com/opensourcepos/opensourcepos)**  
-
-  Web-based POS (PHP/CodeIgniter, MySQL) with 4,400+ GitHub stars and active updates . Features sales, returns, inventory, customers, employees, and reporting. **The most widely adopted open-source retail POS**, suitable for small-to-mid retailers but lacking enterprise features like centralized fulfillment, RFID inventory, or multi-country fiscal compliance.
-
-
-
-- **[NexoPOS](https://github.com/Blair2004/NexoPOS)**  
-
-  Laravel-based web POS with Vue.js/Tailwind, inventory management, sales, customer records, reports, and modular extensions; 1,200+ GitHub stars with active updates . **Cleaner UI than older POS tools** for teams wanting a contemporary web POS on the Laravel stack.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **SeoSamba POS** — Free, open-source omni-channel sales app supporting Stripe, tap-to-pay, Apple Pay, Google Pay, and cash; multi-location inventory and CRM; 195+ countries and 135+ currencies . **SMB-focused** rather than enterprise-scale.
-
-- **Gratis POS** — Lightweight Linux desktop POS (GPL-3.0) with user accounts, product categories, vendor records, inventory, sales, returns, and reports . **Small business focused**, zero telemetry.
-
-- **No open-source equivalent to Aptos ONE or Manhattan Active POS exists** — The unified commerce orchestration, AI-driven personalization, and global compliance depth of enterprise POS suites are not replicated by any active open-source project.
-
-
-
-**Frameworks for building custom systems**: For **enterprise-scale POS backend architecture**, study **mini-pos-api** for multi-tenant design, offline sync patterns, and immutable inventory ledgers . For **ERP-integrated retail**, Odoo Enterprise provides POS with accounting and inventory—but requires a commercial license for the full feature set . For **general retail operations**, OSPOS or NexoPOS serve small-to-mid businesses . No open-source project provides the full enterprise POS platform—organizations requiring omnichannel orchestration, centralized fulfillment, and global compliance should evaluate Aptos, Manhattan, GK Software, or Oracle Xstore.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Enterprise POS platforms handling payment card data must comply with **PCI DSS** requirements; self-hosted solutions require careful security hardening and network segmentation. Multi-country deployments must also address fiscal compliance (e-invoicing, tax authority integration, GDPR/CCPA).
-
-- **Open-source enterprise POS is essentially non-existent at the platform layer**—mini-pos-api provides a strong backend architecture reference , Odoo Enterprise provides ERP-integrated POS , and OSPOS/NexoPOS serve small-to-mid retail . However, **no open-source project replicates the unified commerce depth of Aptos ONE, Manhattan Active POS, or GK Software** . Organizations requiring enterprise-scale omnichannel POS should evaluate commercial platforms.
-
-- Verify license terms for commercial use; Odoo Community uses LGPL/AGPL while Enterprise requires a paid license , and mini-pos-api is open-source (check repository).
-
-
+Enterprise Point of Sale (POS) systems orchestrate high-volume checkout, unified in-store and e-commerce inventory, store fulfillment (BOPIS, ship-from-store, endless aisle), customer relationship management, and complex tax/fiscal compliance across hundreds of retail chains and franchises.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Enterprise SaaS & Hosted Platforms](#enterprise-saas--hosted-platforms)
+- [Open-Source Point of Sale Projects](#open-source-point-of-sale-projects)
+- [Architectural Patterns in Enterprise POS](#architectural-patterns-in-enterprise-pos)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Compliance](#disclaimer--compliance)
 
-**Made for retail CIOs, store operations leaders, omnichannel architects, and POS platform engineers.**  
+---
 
-Let's make enterprise POS more open at the backend layer, but with clear eyes about the unified commerce platform gap that remains.
+## Sector Overview & Market Dynamics
+
+The global Point of Sale (POS) software market is valued at approximately **$16.4B–$19.0B** (with total POS hardware and terminal ecosystems exceeding **$115B+**), compounding at roughly ~10% annually toward $40B+ by the early 2030s.
+
+The market displays a distinct **bifurcated structure**: it is **moderately fragmented** across regional SMB merchants and independent restaurant/retail shops where thousands of ISVs and payment apps compete, yet **highly concentrated** at the Tier-1/Tier-2 enterprise level where a select group of legacy giants and unified commerce cloud vendors (Oracle, Shopify, Manhattan Associates, Diebold Nixdorf, NCR Voyix) capture the overwhelming majority of large enterprise deployments due to stringent global fiscalization, multi-lane hardware reliability, and complex ERP/OMS integrations.
+
+---
+
+## Enterprise SaaS & Hosted Platforms
+
+The following table compares leading commercial and SaaS enterprise POS platforms, ranked in descending order by parent company market capitalization / valuation.
+
+| Product | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limit | Key Capabilities & Architecture |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle Retail POS (Xstore)](https://www.oracle.com/retail/)** | **~$390B Market Cap** (~$53B annual rev) | Custom quote-based (starts ~$150–$300/lane/mo for core modules) | No free tier; demo upon request only | Enterprise tier-1 store POS; deep inventory cycle counts, till management, offline resilience, and Oracle Cloud Retail integration. |
+| **[Shopify POS Pro](https://www.shopify.com/pos)** | **~$215B Market Cap** (~$8.8B annual rev) | $89/month per location (+ base Shopify subscription from $39/mo) | 3-day free trial + $1/month introductory promo for 3 months (POS Pro free on Shopify Plus up to 20 locations) | Unified commerce engine with mobile checkout, BOPIS, staff permissions, exchanges, and native omnichannel inventory sync. |
+| **[Manhattan Active POS](https://www.manh.com/)** | **~$13.5B Market Cap** (~$1.1B annual rev) | Custom enterprise quote (tiered per-device/per-store SaaS subscription) | No free tier; guided pilot / interactive enterprise demo only | Cloud-native microservices architecture, continuous zero-downtime upgrades, clienteling, and store-as-fulfillment center routing. |
+| **[Cegid Retail](https://www.cegid.com/)** | **~€5.5B Valuation** (~€852M annual rev) | Starts at €159/month per terminal | No free tier; custom proof-of-concept / sandbox upon inquiry | Worldwide retail/luxury leader; advanced clienteling, mobile-first iOS/Android checkout, and multi-country tax compliance. |
+| **[Diebold Nixdorf Vynamic](https://www.dieboldnixdorf.com/)** | **~$2.2B Market Cap** (~$3.87B annual rev) | Custom enterprise quote (packaged per terminal + maintenance) | No free tier; managed proof-of-concept for qualified enterprise retail chains | Fuel/convenience, grocery, and specialty retail solutions; self-checkout (SCO) integration, smart vision produce recognition. |
+| **[NCR Voyix Emerald](https://www.ncrvoyix.com/)** | **~$1.15B Market Cap** (~$2.5B annual rev) | Quote-based (entry tiers start ~$100–$175/terminal/mo + hardware) | No free tier; 30-day guided pilot available for enterprise evaluations | High-volume multi-lane supermarket and retail checkout; on-premise edge resiliency tightly paired with NCR Commerce Cloud. |
+| **[Lightspeed Enterprise Retail](https://www.lightspeedhq.com/)** | **~$1.45B Market Cap** (~$1.1B annual rev) | $89/month (Basic) up to $289/month (Plus); Enterprise custom quoted | 14-day free trial (no credit card required; full access to retail inventory and POS registers) | Modern cloud POS with multi-store inventory matrices, supplier catalogs, B2B purchasing, and 250+ enterprise ecosystem integrations. |
+| **[Toshiba Global Commerce Solutions](https://www.toshiba.com/)** | **~$800M+ Revenue** (Toshiba Tec Group ~$3.6B) | Custom enterprise quote (modular software license + TCx hardware) | No free tier; lab demonstration and hardware pilot testing upon request | TCx Sky OS and ELERA unified commerce platform; powers high-throughput grocery, pharmacy, and department store lanes. |
+| **[Aptos Retail (Aptos ONE)](https://www.aptos.com/)** | **~$400M+ Revenue** (Goldman Sachs portfolio) | Custom quote-based (SaaS subscription structured per-store/month) | No free tier; tailored enterprise sandbox/demo environment | Mobile-first unified transaction engine, ship-from-store, endless aisle, and enterprise cycle counts deployed across global retail brands. |
+| **[GK Software (CLOUD4RETAIL)](https://www.gk-software.com/)** | **~€194M Revenue** (Wholly-owned Fujitsu subsidiary) | Custom enterprise quote (CLOUD4RETAIL); SMB tier RETAIL7 starts €49/mo | No free tier on CLOUD4RETAIL; RETAIL7 offers 14-day free trial | Hardware-independent POS deployed across 69+ countries, 400+ open APIs, AI-driven dynamic pricing, and fiscal compliance. |
+
+---
+
+## Open-Source Point of Sale Projects
+
+Open-source POS engines, modular ERP frameworks, and self-hosted POS applications ranked by GitHub stargazers count (descending):
+
+| Repository | GitHub Stars | Technology Stack | Best Suited For |
+| :--- | :--- | :--- | :--- |
+| **[Odoo POS](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript, PostgreSQL | Modular ERP & web-first touchscreen POS for retail shops, restaurants, and hospitality chains. Supports offline orders and IoT hardware boxes. |
+| **[ERPNext POS](https://github.com/frappe/erpnext)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, Frappe Framework, MariaDB | Full-suite open-source ERP with integrated retail POS, inventory serial/batch tracking, billing, multi-store accounting, and barcode scanning. |
+| **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** | [![GitHub stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers) | C#, .NET, ASP.NET Core | Self-hosted, censorship-resistant point-of-sale terminal and cryptocurrency payment gateway with invoice generation and zero intermediary fees. |
+| **[OSPOS (Open Source Point of Sale)](https://github.com/opensourcepos/opensourcepos)** | [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers) | PHP, CodeIgniter, MySQL, Bootstrap | Lightweight, battle-tested web-based POS for small-to-medium retailers. Includes barcode generation, stock management, customer invoicing, and reports. |
+| **[NexoPOS](https://github.com/Blair2004/NexoPOS)** | [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS)](https://github.com/Blair2004/NexoPOS/stargazers) | PHP, Laravel, Vue.js, Tailwind CSS | Contemporary, extendable web POS system with multi-store inventory management, order processing, customer accounts, and modular add-on support. |
+| **[Store-POS](https://github.com/tngoman/Store-POS)** | [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers) | Electron, React, Node.js, SQLite | Modern cross-platform desktop POS till with LAN multi-terminal sync, barcode catalog, cash management, and Windows installer. |
+| **[Lakasir](https://github.com/lakasir/lakasir)** | [![GitHub stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers) | JavaScript, Vue.js, PWA | Lightweight progressive web application (PWA) POS designed for fast cashier workflows and accessible offline-first operation. |
+| **[TailPOS](https://github.com/bailabs/tailpos)** | [![GitHub stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers) | Python, Kivy, ERPNext Integration | Offline-first mobile and desktop POS designed specifically to pair with ERPNext instances, enabling resilient retail checkouts. |
+| **[POS Awesome](https://github.com/ucraft-com/POS-Awesome)** | [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers) | Vue.js, Vuetify, ERPNext | Enhanced single-page POS UI add-on for ERPNext featuring offline caching, split payments, barcode scanner shortcuts, and quick checkout. |
+| **[Laravel POS](https://github.com/angkosal/laravel-pos)** | [![GitHub stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers) | PHP, Laravel, Bootstrap, MySQL | Clean reference web POS implementation covering product cataloging, order receipt printing, and daily transaction logs. |
+| **[React Point of Sale](https://github.com/shanmugharajk/react-point-of-sale)** | [![GitHub stars](https://img.shields.io/github/stars/shanmugharajk/react-point-of-sale?style=social&color=white)](https://github.com/shanmugharajk/react-point-of-sale/stargazers) | JavaScript, React, Node.js, Express, MongoDB | Full-stack JavaScript Point of Sale application featuring responsive cash register layouts, receipt generation, and real-time order states. |
+| **[Go POS](https://github.com/bagashiz/go-pos)** | [![GitHub stars](https://img.shields.io/github/stars/bagashiz/go-pos?style=social&color=white)](https://github.com/bagashiz/go-pos/stargazers) | Go, Gin, PostgreSQL, Redis | High-performance RESTful POS microservice backend architected around Hexagonal Architecture principles and caching. |
+
+---
+
+## Architectural Patterns in Enterprise POS
+
+When designing or evaluating enterprise-grade POS systems, several core architectural patterns separate simple cash registers from enterprise-ready checkout platforms:
+
+1. **Offline Resiliency & Cursor-Based Sync**: Stores cannot halt sales when wide-area networks (WAN) experience latency or outages. Production POS architectures employ local persistent storage (e.g., SQLite, IndexedDB, or embedded Couchbase/PostgreSQL) with deterministic, idempotent pull/push synchronization queues once connectivity restores.
+2. **Double-Entry Immutable Ledgers**: High-volume retail checkout requires tamper-evident tracking of shift balances, cash drawer drops, split tenders, and refund audits using double-entry ledger designs.
+3. **Hardware Abstraction Layer (HAL)**: Abstracting thermal receipt printers (ESC/POS), line customer displays, scale weighers, cash drawers, and EMV payment PIN pads across disparate OS environments (iOS mPOS tablets, Android handhelds, Windows touch terminals).
+4. **Unified Omnichannel Inventory**: Bridging brick-and-mortar stock with digital fulfillment routes—enabling Buy Online, Pick Up In Store (BOPIS), Ship-from-Store (SFS), and Endless Aisle dropshipping without double-allocation risks.
+5. **Fiscalization & Compliance Engine**: Integrating local fiscal hardware units, electronic signature validation, e-invoicing authorities, PCI-DSS payment data segmentation, and GDPR/CCPA data minimization.
+
+---
+
+## How to Contribute
+
+Contributions, corrections, and additions are welcome!
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/new-pos-platform`.
+3. Add or update items in `README.md` adhering to existing table formats and alphabetical/star ordering.
+4. Ensure valid URLs and factual pricing/architecture details.
+5. Submit a Pull Request with a clear summary of your changes.
+
+---
+
+## Disclaimer & Compliance
+
+- This repository is an independent community curation and is not affiliated with or sponsored by any listed POS vendors.
+- Any point-of-sale software handling cardholder payment data must comply with **PCI DSS** (Payment Card Industry Data Security Standards). Self-hosted platforms require proper network segmentation, Point-to-Point Encryption (P2PE), and validated payment terminals.
+- Check licenses prior to commercial deployment: Odoo Community is licensed under LGPL-3.0 (with Enterprise requiring commercial subscriptions), ERPNext is GPL-3.0, and various backend references use MIT/Apache-2.0.
